@@ -13,10 +13,10 @@ jobs:
         submodules: true
         fetch-depth: 2
         token: ${{ secrets.GIT_TOKEN }}
-    - name: Set up Python 3.9
+    - name: Set up Python 3.14
       uses: actions/setup-python@v7
       with:
-        python-version: 3.9
+        python-version: 3.14
         cache: 'pip'
     - name: Install Trestle
       run: bash scripts/automation/install_trestle.sh
