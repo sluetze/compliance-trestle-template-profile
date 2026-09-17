@@ -1,0 +1,3 @@
+python-semantic-release==7.31.4
+compliance-trestle
+setuptools==84.0.0
